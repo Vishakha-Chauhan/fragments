@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fraaa.colourfraa">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            tools:ignore="UselessParent">
+            <Button
+                android:layout_width="80sp"
+                android:layout_height="60sp"
+                android:text="@string/red"
+                android:id="@+id/red1"
+                android:background="#808080"
+
+                />
+
+            <Button
+                android:id="@+id/blue1"
+                android:layout_width="80sp"
+                android:layout_height="60sp"
+                android:text="@string/blue"
+                android:layout_below="@id/red1"
+                android:layout_toRightOf="@id/red1"
+                android:layout_toEndOf="@id/red1"
+                android:background="#808080"
+               />
+            <Button
+                android:id="@+id/yellow1"
+                android:layout_width="80sp"
+                android:layout_height="60sp"
+                android:text="@string/yello"
+                android:layout_below="@id/blue1"
+                android:layout_toRightOf="@id/blue1"
+                android:layout_toEndOf="@id/blue1"
+                android:background="#808080"
+                />
+            <Button
+                android:id="@+id/green1"
+                android:layout_width="80sp"
+                android:layout_height="60sp"
+                android:layout_below="@id/yellow1"
+                android:text="@string/green"
+                android:layout_toRightOf="@id/red1"
+                android:layout_toEndOf="@id/red1"
+                android:background="#808080"
+                />
+            <Button
+                android:id="@+id/pink1"
+                android:layout_width="80sp"
+                android:layout_height="60sp"
+                android:layout_below="@id/green1"
+                android:text="@string/pink"
+                android:background="#808080"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
